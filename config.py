@@ -5,7 +5,7 @@ class Config:
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = 'mysql://root:@localhost/project_web_facilito'
+    SQLALCHEMY_DATABASE_URI = 'mysql://jlopez:@localhost/project_web_facilito'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     MAIL_SERVER = 'smtp.googlemail.com'
