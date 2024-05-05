@@ -1,2 +1,4 @@
 venv/
-
+downloads/
+fabfile.py
+wsgi.py
